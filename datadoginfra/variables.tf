@@ -1,12 +1,12 @@
 variable datadog_api_key {
   type        = string
-  default     = "7a56605020f437500ea696be424e69f8"
+  default     = ""
   description = "API key for Datadog"
 }
 
 variable datadog_app_key {
   type        = string
-  default     = "e0845caa221c9b0d03459795e38d8f6eeceff2f9"
+  default     = ""
   description = "APP key for Datadog"
 }
 
