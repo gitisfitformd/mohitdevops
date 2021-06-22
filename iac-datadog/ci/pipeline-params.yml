@@ -1,0 +1,7 @@
+# The parent pipeline configuration file from which to create the pipeline
+pipeline-config: pipelines/hcaas-datadog.mako
+
+# The location & version of the common-ci repository
+common-ci-project-key: hc_devo
+common-ci-repo: hcaas-pipeline
+common-ci-branch: feature/EOP-1096-datadog-from-concourse
