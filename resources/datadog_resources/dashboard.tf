@@ -1,19 +1,3 @@
-terraform {
-  required_version = ">= 0.13.0"
-
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = ">= 2.0"
-    }
-
-    datadog = {
-      source  = "datadog/datadog"
-      version = ">= 2.13"
-    } 
- }
-}
-
 resource "datadog_dashboard" "tfer--dashboard_37x-002D-rv7-002D-rue" {
   description  = "HCaaS Uptime SLO Summary\n\nThis Dashboard  summarizes the SLO details for all the HCaaS Assets ."
   is_read_only = "false"
