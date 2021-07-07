@@ -1,19 +1,3 @@
-terraform {
-  required_version = ">= 0.13.0"
-
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = ">= 2.0"
-    }
-
-    datadog = {
-      source  = "datadog/datadog"
-      version = ">= 2.13"
-    } 
- }
-}
-
 resource "datadog_synthetics_test" "tfer--synthetics_4ma-002D-df4-002D-v5t" {
   assertion {
     operator = "lessThan"
